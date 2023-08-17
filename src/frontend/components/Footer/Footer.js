@@ -1,7 +1,4 @@
 import "./Footer.css";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FmdGoodIcon from "@mui/icons-material/FmdGood";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
@@ -18,19 +15,19 @@ function Footer () {
           Designs made by artists from around the world and not google.
           </p>
           <div className="socials">
-            <Link to="https://github.com/Diablo-web">
+            <Link to="">
               <p>
-                <GitHubIcon />
+                {/* <GitHubIcon /> */}
               </p>
             </Link>
-            <Link to="https://twitter.com/SumedhK01">
+            <Link to="">
               <p>
-                <TwitterIcon />
+                {/* <TwitterIcon /> */}
               </p>
             </Link>
-            <Link to="https://www.linkedin.com/in/sumedh-kurhade-98274a19b/">
+            <Link to="">
               <p>
-                <LinkedInIcon />
+                {/* <LinkedInIcon /> */}
               </p>
             </Link>
           </div>
@@ -56,25 +53,25 @@ function Footer () {
               <div className="contact-icon">
                 <FmdGoodIcon />
               </div>
-              <p>03, Jogeshwari-400087</p>
+              <p>PDPM IIITDM JABALPUR</p>
             </div>
             <div className="contact-mode">
               <div className="contact-icon">
                 <CallIcon />
               </div>
-              <p>+91 00888 56789</p>
+              <p>+91 9140730664</p>
             </div>
             <div className="contact-mode">
               <div className="contact-icon">
                 <EmailIcon />
               </div>
-              <p>animates@yahoo.com</p>
+              <p>smartsamarth77@gmail.com</p>
             </div>
           </div>
         </div>
         <div className="footer-copyright">
-          <span>No Copyright © 2023 {" "}</span>
-          <span>Feel free to replicate</span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     </>
