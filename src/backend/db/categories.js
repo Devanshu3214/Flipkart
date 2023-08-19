@@ -10,7 +10,7 @@ export const categories = [
   {
     _id: uuid(),
     img: "https://comicsense.b-cdn.net/wp-content/uploads/2022/08/oversize_comicsense.jpg",
-    categoryName: "Oversize",
+    categoryName: "Clothes",
   },
   {
     _id: uuid(),
@@ -25,7 +25,7 @@ export const categories = [
   {
     _id: uuid(),
     img: "/images/categories/fig-1.webp",
-    categoryName: "FigureIn",
+    categoryName: "Toys",
   },
   {
     _id: uuid(),

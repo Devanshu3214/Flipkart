@@ -9,25 +9,23 @@ function Footer () {
     <>
       <div className="footer">
         <div className="footer-left">
-          <h2>Animates</h2>
+          <h2>Trend Cart</h2>
           {/* <span>Anima</span> */}
-          <p>
-          Designs made by artists from around the world and not google.
-          </p>
+          <p></p>
           <div className="socials">
             <Link to="">
               <p>
-                {/* <GitHubIcon /> */}
+                {}
               </p>
             </Link>
             <Link to="">
               <p>
-                {/* <TwitterIcon /> */}
+                {}
               </p>
             </Link>
             <Link to="">
               <p>
-                {/* <LinkedInIcon /> */}
+                {}
               </p>
             </Link>
           </div>
