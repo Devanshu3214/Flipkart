@@ -30,8 +30,8 @@ const ProductCard = ({ product, addedToWishlist }) => {
   return (
     <div className="product-card">
       <Link to={`/product/${_id}`}>
-        <div className="product-img">
-          <img src={imgSrc} alt={title} onClick={() => getProductById(_id)} />
+        <div className="product-img" >
+          <img style={{height:"40vh"}} src={imgSrc} alt={title} onClick={() => getProductById(_id)} />
         </div>
       </Link>
       {category && (

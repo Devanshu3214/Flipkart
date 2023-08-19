@@ -14,11 +14,6 @@ export const getAllProductsHandler = function () {
   return new Response(200, {}, { products: this.db.products });
 };
 
-/**
- * This handler handles gets all products in the db.
- * send GET Request at /api/user/products/:productId
- * */
-
 export const getProductHandler = function (schema, request) {
   const productId = request.params.productId;
   try {
