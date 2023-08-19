@@ -9,7 +9,8 @@ import { v4 as uuid } from "uuid";
 export const categories = [
   {
     _id: uuid(),
-    img: "https://comicsense.b-cdn.net/wp-content/uploads/2022/08/oversize_comicsense.jpg",
+    // img: "https://comicsense.b-cdn.net/wp-content/uploads/2022/08/oversize_comicsense.jpg",
+    img :"/images/categories/Clothes.webp",
     categoryName: "Clothes",
   },
   {
