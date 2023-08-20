@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const slides = [
-  "/images/slider/image-1.jpg",
+  "/images/slider/image-1.webp",
   "/images/slider/image-4.png",
 ];
 
@@ -15,7 +15,7 @@ function Slider() {
       setSelectedImage((selectedImage) =>
         selectedImage < 1 ? selectedImage + 1 : 0
       );
-    }, 3000);
+    }, 5000);
   }, []);
 
   return (
